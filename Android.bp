@@ -187,10 +187,3 @@ android_app_import {
 		enabled: false,
 	},
 }
-
-cc_prebuilt_binary {
-	name: "chargeonlymode",
-	owner: "xiaomi",
-	srcs: ["proprietary/bin/chargeonlymode"],
-	prefer: true,
-}
